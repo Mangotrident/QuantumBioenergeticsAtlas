@@ -1,0 +1,44 @@
+{
+  "nodes": [
+    {
+      "id": "CI"
+    },
+    {
+      "id": "CoQ"
+    },
+    {
+      "id": "CIII"
+    },
+    {
+      "id": "Cytc"
+    },
+    {
+      "id": "CIV"
+    },
+    {
+      "id": "Sink"
+    }
+  ],
+  "edges": [
+    [
+      "CI",
+      "CoQ"
+    ],
+    [
+      "CoQ",
+      "CIII"
+    ],
+    [
+      "CIII",
+      "Cytc"
+    ],
+    [
+      "Cytc",
+      "CIV"
+    ],
+    [
+      "CIV",
+      "Sink"
+    ]
+  ]
+}

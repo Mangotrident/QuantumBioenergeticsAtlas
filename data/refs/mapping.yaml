@@ -1,0 +1,12 @@
+epsilon0: 0.0
+alpha: 0.02      # epsilon_i = epsilon0 - alpha*z_i
+J0: 0.03         # coupling scale
+Jmax: 0.05       # coupling cap
+sigma: 0.01      # static disorder
+gamma_sweep: [0.0, 0.05, 0.0025]  # start, stop, step
+k_sink: 0.10
+k_loss: 0.01
+source_idx: 0
+sink_idx: 5
+tmax: 2000
+dt: 0.5

@@ -1,0 +1,20 @@
+name: qba
+channels: [conda-forge, defaults]
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - numba
+  - matplotlib
+  - statsmodels
+  - scikit-learn
+  - pyyaml
+  - networkx
+  - pyarrow
+  - tqdm
+  - streamlit
+  - plotly
+  - seaborn
+  - fastapi
+  - uvicorn
